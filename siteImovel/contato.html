@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Gomes Imobiliária</title>
+	<link href="css/estilos.css" rel="stylesheet">
+</head>
+<body id="bd-contato">
+
+<div id="site">
+	<div id="cabecalho" class="grupo">
+		<a href="index.html" id="logo">
+			<img src="logo/Gomeslogo.png">
+		</a>
+		<div id="menu-principal">
+			<ul class="grupo">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="servicos.html">Serviços</a>
+				</li>
+				<li>
+					<a class="ativo" href="contato.html">Contato</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="conteudo" class="grupo">
+		<div id="conteudo-principal">
+			
+			<h1>Contato</h1>
+			
+			<p>
+				Entre em contato conosco preenchendo o formulário abaixo:
+			</p>
+			
+			<form action="#" method="post">
+				<fieldset>
+
+					<div class="grupo">
+						<div class="campo nome">
+							<label for="nome">Nome <abbr title="preenchimento obrigatório">*</abbr></label>
+							<input type="text" name="nome" id="nome" maxlength="100">
+						</div>
+						
+						<div class="campo empresa">
+							<label for="empresa">Empresa</label>
+							<input type="text" name="empresa" id="empresa" maxlength="100">
+						</div>
+					</fieldset>
+
+					<div class="campo">
+						<label for="email">E-mail <abbr title="preenchimento obrigatório">*</abbr></label>
+						<input type="text" name="email" id="email" maxlength="100">
+					</div>
+
+					<fieldset class="grupo">
+						<div class="campo telefone">
+							<label for="telefone">Telefone <abbr title="preenchimento obrigatório">*</abbr></label>
+							<input type="text" name="telefone" id="telefone" maxlength="20">
+						</div>
+					</fieldset>
+
+					<div class="campo">
+						<label for="assunto">Assunto <abbr title="preenchimento obrigatório">*</abbr></label>
+						<select id="assunto" name="assunto">
+							<option>-- Selecione --</option>
+							<option>Orçamento</option>
+							<option>Dúvidas</option>
+							<option>Solicitações</option>
+							<option>Reclamações</option>
+							<option>Outro</option>
+						</select>
+					</div>
+
+					<div class="campo">
+						<label for="mensagem">Mensagem <abbr title="preenchimento obrigatório">*</abbr></label>
+						<textarea id="mensagem" name="mensagem"></textarea>
+					</div>
+
+					<div class="campo">
+						<label class="checkbox">
+							<input type="checkbox" name="novidade"> Gostaria de receber as novidades sobre a Empresa
+						</label>
+					</div>
+
+					<input type="submit" name="submit" class="submit" value="Enviar Mensagem">
+
+				</fieldset>
+			</form>
+
+		</div>
+	</div>
+	<div id="rodape-fora">
+		<div id="rodape">
+			<p id="telefone-email">
+				gomeskaren35@gmail.com<br> 				
+				<br>
+				  (11)95652-1226
+			</p>
+
+			<p id="endereco">
+				R. Edgar Alves Figueiredo, 160 - Jardim Trianon 
+				<br>
+				CEP 06783-290
+				<br>
+				Taboão da Serra - SP
+			</p>
+
+			<small id="copyright">
+				&copy; Empresa Ltda. Todos os Direitos Reservados.
+			</small>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
